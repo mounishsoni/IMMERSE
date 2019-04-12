@@ -28,6 +28,11 @@ h2 {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
+
+	.container {
+		min-height: 1000px;
+	}
+
 	#top-nav img {    
 	    max-width: 50%;
 	}
@@ -126,6 +131,7 @@ h2 {
 		box-shadow: 0;
 	}
 
+	/*WEEKLY HITS*/
 	.card {
 		font-family: 'Comfortaa', cursive;
 	}
@@ -150,6 +156,30 @@ h2 {
 		font-weight: 100;
 		letter-spacing: 0.2rem;
 		font-size: 13px;
+	}
+
+	/*TOP 25*/
+	.top25-list {
+		font-family: 'Comfortaa', cursive;
+	}
+
+	.top25-list ol li a{
+		color:#fff;
+	}
+
+	.top25-list ol li a:hover {
+		color:lightblue;
+	}
+
+
+	/*SHUFFLE*/
+	.shuffle {
+		margin-left: 3rem;
+		color:#fff;
+	}
+
+	.shuffle:hover {
+		color:lightblue;
 	}
 
 	/*player footer*/

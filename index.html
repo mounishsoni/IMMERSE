@@ -114,7 +114,6 @@
         <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
           <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-weekly-hits" role="tab" aria-controls="v-pills-home" aria-selected="true">» Weekly hits</a>
           <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-top-25" role="tab" aria-controls="v-pills-profile" aria-selected="false">» Top 25</a>
-          <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-shuffle" role="tab" aria-controls="v-pills-messages" aria-selected="false">» Shuffle</a>
           <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-immerse" role="tab" aria-controls="v-pills-settings" aria-selected="false">» IMMERSE Box</a>
           <br>------------------------<br><br>
           <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-hindi" role="tab" aria-controls="v-pills-settings" aria-selected="false">» Hindi Songs</a>
@@ -192,41 +191,88 @@
                     <p class="card-text">Arijit Singh</p>
                   </div>
                 </div>
-                <div class="card text-white bg-dark mb-3" >
-                  <div class="card-header">Gully Boy</div>
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      <a href="#"><span class="fa fa-play-circle-o"> </span>Apna time aayega </a>
-                    </h5>
-                    <p class="card-text">Ranveer Singh, Alia Bhatt | Dub Sharma | Zoya Akhtar</p>
-                  </div>
-                </div>
+                <nav aria-label="">
+                  <ul class="pagination pagination-sm">
+                    <li class="page-item active" aria-current="page">
+                      <span class="page-link">
+                        1
+                        <span class="sr-only">(current)</span>
+                      </span>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  </ul>
+                </nav>
             </div>
           </div>
-          <div class="tab-pane fade" id="v-pills-top-25" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-          <div class="tab-pane fade" id="v-pills-shuffle" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-          <div class="tab-pane fade" id="v-pills-immerese" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+          <div class="tab-pane fade" id="v-pills-top-25" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+            <h2>Top 25</h2><hr>
+            <div class="top25-list">
+              <ol type="1">
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+                <li><a href="#">Baarishein - Atif Aslam</a></li>
+              </ol>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="v-pills-immerse" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+            <h2>IMMERSE Shuffle </h2><hr>
+            <a href="#"><span class="fa fa-play shuffle"></span></a>
+            <a href="#"><span class="fa fa-step-forward shuffle"></span></a>
+          </div>
           <div class="tab-pane fade" id="v-pills-hindi" role="tabpanel" aria-labelledby="v-pills-settings-tab">
             <div class="section">
-              <h2>Latest Songs</h2>
-              <ul type="arrow">
-                <li> <a href="#">Kalank </a></li>
-                <li> <a href="#">Manikarnika </a> </li>
-                <li> <a href="#">Kesari </a></li>
-                <li> <a href="#">Romeo Akbar Walter </a></li>
-                <li> <a href="#">Gully Boy </a></li>
+              <h2>Latest Single Tracks</h2><hr>
+              <ul type="circle">
+                <li> <a href="#">Kalank Movie Song – Ghar More Pardesiya </a></li>
+                <li> <a href="#">Kalank Movie – Tabaah Ho Gaye </a> </li>
+                <li> <a href="#">Junglee movie – dosti song  </a></li>
+                <li> <a href="#">Ve Maahi – Arijit Singh & Asees Kaur </a></li>
+                <li> <a href="#">Notebook movie songs – Safar </a></li>
+                <li> <a href="#">COCA COLA – Luka Chipi </a></li>
+                <li> <a href="#">PANIYON SA - Atif Aslam Tulsi Kumar </a></li>
+                <li> <a href="#">Bhula Diya - Darshan Raval  </a></li>
+                <li> <a href="#">Tere Jism Romantic Song </a></li>
+                <li> <a href="#">Baarishein - Album - Atif Aslam </a></li>
+                <li> <a href="#">Chod diya - Arijit Singh</a></li>
+                <li> <a href="#">Aankh maarey - Kumar sanu </a></li>
+                <li> <a href="#">Salam Rocky Bhai – KGF Chapter 1 </a></li>
               </ul>
             </div>
           </div>
-          <div class="tab-pane fade" id="v-pills-english" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+          <div class="tab-pane fade" id="v-pills-english" role="tabpanel" aria-labelledby="v-pills-settings-tab"></div>
           <div class="tab-pane fade" id="v-pills-old-hindi" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
           <div class="tab-pane fade" id="v-pills-punjabi" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
         </div>
       </div>
     </div>
 
+  </div> <!-- End of container -->
+
     <div id="player">
-      <div class=" player-head fixed-bottom ">
+      <div class=" player-head">
         <h2>Now Playing <span class="fa fa-music"></span></h2>
         <div class="player-title">
           <img src="img/atif.jpg" class="player-img" alt="" />
@@ -249,8 +295,6 @@
         </div>
       </div>
     </div>
-  </div> <!-- End of container -->
-
 
   <!-- JS Link -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
