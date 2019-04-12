@@ -19,8 +19,48 @@ body {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 	body {
-		background-color: blue;
+		background-color: green;
 	}
+
+	#top-nav img {    
+	    max-width: 50%;
+	}
+
+	.navbar-brand {
+		font-family: 'Cinzel Decorative', cursive;
+		font-weight: black900;
+		font-size: 2rem;
+	}
+
+	#navbar-content form {
+	    margin-left: 200px;
+	}
+
+	.searchbar {
+		visibility: hidden;
+	}
+
+	#navbar-content ul {
+	    margin-left: 85px;
+	}
+
+	#navbar-content ul li {
+		padding-left: 0.5rem;
+	}
+
+	#navbar-content ul li a {
+		font-family: 'Comfortaa', cursive;
+	}
+
+	#navbar-content ul li a:hover {
+		color:#fff;
+	}
+
+	#navbar-content ul li a:active {
+		color: olive;
+	}
+
+
 } 
 
 @media only screen and (min-width: 992px){
