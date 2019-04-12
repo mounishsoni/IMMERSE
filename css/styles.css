@@ -163,6 +163,10 @@ h2 {
 		font-family: 'Comfortaa', cursive;
 	}
 
+	.top25-list ol li {
+		padding-bottom: 1.5rem;
+	}
+	
 	.top25-list ol li a{
 		color:#fff;
 	}
