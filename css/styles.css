@@ -44,6 +44,7 @@ body {
 	#carousel {
 		min-width: 120%;
 		margin-bottom:2rem;
+		margin-left: 5%;
 	}
 
 	.carousel-list {
@@ -81,8 +82,8 @@ body {
 	}
 
 	.searchbar2 {
-		margin-left: 20%;
-		padding: 3rem;	
+		margin-left: 30%;
+		padding: 1rem 3rem 3rem 3rem;	
 	}
 
 	.searchbar2 input::placeholder {
@@ -109,6 +110,70 @@ body {
 		color:#fff;
 	}
 
+	/*player footer*/
+	#player {
+	}
+
+	.player-head {max-height: 110px;
+		background-color: #CCC;
+		padding: 1rem;
+		color:#333;
+		display: flex;
+	}
+
+	.player-head h2 {
+	    margin-top: 1rem;
+	    margin-right: 0.5rem;
+	    font-size: 1.5rem;
+	}
+
+	.player-img {
+		max-width: 80px;
+		border-radius: 50%;
+		margin-right: 1rem;
+		margin-left: 1rem;
+	}
+
+	.fa-circle:hover {
+		color:#237A57;
+	}
+
+	#seek {    
+	    border: 2px solid darkslategrey;
+	    border-bottom: none;
+	    border-left: none;
+	    border-right: none;
+	    margin-top: -13px;
+	}
+
+	.player-body a{
+		color:black;
+		margin: 1rem;
+	}
+
+	.player-body a:hover {
+		color:#237A57;
+		text-decoration: none;
+	}
+
+	.fa {
+		padding-top: 1rem;
+	}
+	.fa:before {
+		font-size: large;
+	}
+
+	.fa-step-backward:before, .fa-play:before, .fa-step-forward:before {
+		font-size: xx-large;
+	}
+
+	.fa-heart:hover, .fa-thumbs-down:hover  {
+		color:red;
+	}
+
+	.fa-thumbs-up:hover {
+		color:blue;
+	}
 } 
 
 @media only screen and (min-width: 992px){

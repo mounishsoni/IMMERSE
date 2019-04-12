@@ -9,13 +9,16 @@
   <!-- My CSS Link -->
   <link rel="stylesheet" type="text/css" href="css/styles.css" />
 
+  <!-- fa class for icon, css link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <!-- Fonts Link -->
   <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:700|Comfortaa|Raleway" rel="stylesheet">
 
 </head>
 <body>
   <div id="top-nav">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: black;">
       <a class="navbar-brand" href="#">IMMERSE</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -55,10 +58,12 @@
 
   <!-- container block -->
   <div class="container">
-    <form class="form-inline searchbar2">
-      <input class="form-control mr-sm-2" type="search" placeholder="Find Your Songs Here..." aria-label="Search" size="40">
-      <button class="btn btn-outline-light btn-search" type="submit">Search</button>
-    </form>
+    <div>
+      <form class="form-inline searchbar2">
+        <input class="form-control mr-sm-2" type="search" placeholder="Find Your Songs Here..." aria-label="Search" size="25">
+        <button class="btn btn-outline-light btn-search" type="submit">Search</button>
+      </form>
+    </div>
 
     <!-- First Shelf Carousel -->
     <div id="carousel" class="carousel slide" data-ride="carousel">
@@ -118,18 +123,43 @@
           <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-punjabi" role="tab" aria-controls="v-pills-settings" aria-selected="false">» Punjabi Songs</a>
         </div>
       </div>
-      <div class="col-6 center-block">
+      <div class="col-9 center-block">
         <div class="tab-content" id="v-pills-tabContent">
           <div class="tab-pane fade show active" id="v-pills-weekly-hits" role="tabpanel" aria-labelledby="v-pills-home-tab">
             <div class="section">
-              <h3>Latest Songs</h3>
-              <ul type="arrow">
-                <li> Kalank </li>
-                <li> Manikarnika </li>
-                <li> Kesari </li>
-                <li> Romeo Akbar Walter </li>
-                <li> Gully Boy </li>
-              </ul>
+              <h2>Weekly Hits</h2>
+              <hr>
+
+                <li> <a href="#">Kalank </a></li>
+                <li> <a href="#">Manikarnika </a> </li>
+                <li> <a href="#">Kesari </a></li>
+                <li> <a href="#">Romeo Akbar Walter </a></li>
+                <li> <a href="#">Gully Boy </a></li>
+                <li> <a href="#">Kalank </a></li>
+                <li> <a href="#">Manikarnika </a> </li>
+                <li> <a href="#">Kesari </a></li>
+                <li> <a href="#">Romeo Akbar Walter </a></li>
+                <li> <a href="#">Gully Boy </a></li>
+                <li> <a href="#">Kalank </a></li>
+                <li> <a href="#">Manikarnika </a> </li>
+                <li> <a href="#">Kesari </a></li>
+                <li> <a href="#">Romeo Akbar Walter </a></li>
+                <li> <a href="#">Gully Boy </a></li>
+                <li> <a href="#">Kalank </a></li>
+                <li> <a href="#">Manikarnika </a> </li>
+                <li> <a href="#">Kesari </a></li>
+                <li> <a href="#">Romeo Akbar Walter </a></li>
+                <li> <a href="#">Gully Boy </a></li>
+                <li> <a href="#">Kalank </a></li>
+                <li> <a href="#">Manikarnika </a> </li>
+                <li> <a href="#">Kesari </a></li>
+                <li> <a href="#">Romeo Akbar Walter </a></li>
+                <li> <a href="#">Gully Boy </a></li>
+                <li> <a href="#">Kalank </a></li>
+                <li> <a href="#">Manikarnika </a> </li>
+                <li> <a href="#">Kesari </a></li>
+                <li> <a href="#">Romeo Akbar Walter </a></li>
+                <li> <a href="#">Gully Boy </a></li>
             </div>
           </div>
           <div class="tab-pane fade" id="v-pills-top-25" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
@@ -151,20 +181,34 @@
           <div class="tab-pane fade" id="v-pills-old-hindi" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
           <div class="tab-pane fade" id="v-pills-punjabi" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
         </div>
-      </div> 
-      <div class="col-3 right-block">
-        <div>
-          dnsi ndsin inds inid ni dsnin dsinvi sdnvin dinvdskmvids nivndsi nv
-          ids visdn ivnsdi nvisdn ivmsdmvismdv
-          ajdsh lkjfh dsjhkjsdhkjadkjlas 
-          adsjkf hsdlkjfhsdjkfhjskdf
-          sadfksdjfhksjdhf
-          sfkjsadfhklsdfh
-          fkjaskdfhkajsdhfkjsdhfkjshdkfjhs. sadhfkj sd ksdnf. 
-        </div>        
+      </div>
+    </div>
+
+    <div id="player">
+      <div class=" player-head fixed-bottom ">
+        <h2>Now Playing <span class="fa fa-music"></span></h2>
+        <div class="player-title">
+          <img src="img/atif.jpg" class="player-img" alt="" />
+        </div>
+        <div class="player-body">
+          <span class="fa fa-circle"></span>
+          <hr id="seek">
+          <a href="#"><div class="fa fa-random"></div></a>    
+          <a href="#"><div class="fa fa-step-backward"></div></a>    
+          <a href="#"><div class="fa fa-play"></div></a>    
+          <a href="#"><div class="fa fa-step-forward"></div></a>    
+          <a href="#"><div class="fa fa-retweet"></div> </a>    
+          <a href="#"><div class="fa fa-volume-down"></div></a>    
+          <a href="#"><div class="fa fa-volume-up"></div></a>    
+          <a href="#"><div class="fa fa-heart"></div></a>    
+          <a href="#"><div class="fa fa-clock-o"></div></a>    
+          <a href="#"><div class="fa fa-thumbs-up"></div></a>    
+          <a href="#"><div class="fa fa-thumbs-down"></div></a>
+        </div>
       </div>
     </div>
   </div> <!-- End of container -->
+
 
   <!-- JS Link -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
