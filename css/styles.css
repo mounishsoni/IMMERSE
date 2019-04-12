@@ -1,0 +1,49 @@
+body {
+
+}
+
+#top-nav img {    
+    max-width: 50%;
+}
+
+.navbar-brand {
+	font-family: 'Cinzel Decorative', cursive;
+	font-weight: black900;
+	font-size: 2rem;
+}
+
+#navbar-content form {
+    margin-left: 340px;
+}
+
+#navbar-content ul {
+    margin-left: 80px;
+}
+
+#navbar-content ul li {
+	padding-left: 0.5rem;
+}
+
+#navbar-content ul li a {
+	color:cyan;
+}
+
+#navbar-content ul li a:hover {
+	color:#CCC;
+}
+
+#navbar-content ul li a:active {
+	color: olive;
+}
+
+.container {
+	margin: 1rem 2rem;
+	min-height: 100%;
+}
+
+.left-block {
+	background-color: olive;
+	min-height: 550px;
+}
+
+
