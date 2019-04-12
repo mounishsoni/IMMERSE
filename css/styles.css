@@ -1,49 +1,123 @@
 body {
-
+	background-color: #DCDCDC;
 }
 
-#top-nav img {    
-    max-width: 50%;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	body {
+		background-color: yellow;
+	}
 }
 
-.navbar-brand {
-	font-family: 'Cinzel Decorative', cursive;
-	font-weight: black900;
-	font-size: 2rem;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	body {
+		background-color: cyan;
+	}
 }
 
-#navbar-content form {
-    margin-left: 340px;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	body {
+		background-color: brown;
+	}
+} 
+
+@media only screen and (min-width: 992px){
+	body {
+		background-color: red;
+	}
+
+	#top-nav img {    
+	    max-width: 50%;
+	}
+
+	.navbar-brand {
+		font-family: 'Cinzel Decorative', cursive;
+		font-weight: black900;
+		font-size: 2rem;
+	}
+
+	#navbar-content form {
+	    margin-left: 1%;
+	}
+
+	.searchbar input::placeholder {
+		color:#CCC;
+		font-family: 'Raleway', sans-serif;
+	}
+
+	.btn-search {
+		font-family: 'Comfortaa', cursive; 
+	}
+
+	#navbar-content ul {
+	    margin-left: 1%;
+	}
+
+	#navbar-content ul li {
+		padding-left: 0.5rem;
+	}
+
+	#navbar-content ul li a {
+		font-family: 'Comfortaa', cursive;
+	}
+
+	#navbar-content ul li a:hover {
+		color:#fff;
+	}
+
+	#navbar-content ul li a:active {
+		color: olive;
+	}
+}	
+
+@media only screen and (min-width: 1352px){
+	body {
+		background-color: green;
+	}
+
+
+	#top-nav img {    
+	    max-width: 50%;
+	}
+
+	.navbar-brand {
+		font-family: 'Cinzel Decorative', cursive;
+		font-weight: black900;
+		font-size: 2rem;
+	}
+
+	#navbar-content form {
+	    margin-left: 200px;
+	}
+
+	.searchbar input::placeholder {
+		color:#CCC;
+		font-family: 'Raleway', sans-serif;
+	}
+
+	.btn-search {
+		font-family: 'Comfortaa', cursive; 
+	}
+
+	#navbar-content ul {
+	    margin-left: 85px;
+	}
+
+	#navbar-content ul li {
+		padding-left: 0.5rem;
+	}
+
+	#navbar-content ul li a {
+		font-family: 'Comfortaa', cursive;
+	}
+
+	#navbar-content ul li a:hover {
+		color:#fff;
+	}
+
+	#navbar-content ul li a:active {
+		color: olive;
+	}
 }
-
-#navbar-content ul {
-    margin-left: 80px;
-}
-
-#navbar-content ul li {
-	padding-left: 0.5rem;
-}
-
-#navbar-content ul li a {
-	color:cyan;
-}
-
-#navbar-content ul li a:hover {
-	color:#CCC;
-}
-
-#navbar-content ul li a:active {
-	color: olive;
-}
-
-.container {
-	margin: 1rem 2rem;
-	min-height: 100%;
-}
-
-.left-block {
-	background-color: olive;
-	min-height: 550px;
-}
-
-
