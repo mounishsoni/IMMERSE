@@ -10,7 +10,7 @@
   <link rel="stylesheet" type="text/css" href="css/styles.css" />
 
   <!-- Fonts Link -->
-  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:700|Comfortaa|Raleway:100" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:700|Comfortaa|Raleway" rel="stylesheet">
 
 </head>
 <body>
@@ -22,7 +22,7 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbar-content">
-        <form class="form-inline searchbar">
+        <form class="form-inline searchbar1">
           <input class="form-control mr-sm-2" type="search" placeholder="Find Your Songs Here..." aria-label="Search" size="20">
           <button class="btn btn-outline-light btn-search" type="submit">Search</button>
         </form>
@@ -55,31 +55,112 @@
 
   <!-- container block -->
   <div class="container">
+    <form class="form-inline searchbar2">
+      <input class="form-control mr-sm-2" type="search" placeholder="Find Your Songs Here..." aria-label="Search" size="40">
+      <button class="btn btn-outline-light btn-search" type="submit">Search</button>
+    </form>
+
+    <!-- First Shelf Carousel -->
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="10000">
+          <div class="carousel-list">
+            <a href="#"><img src="img/atif.jpg" alt="" /></a>
+            <a href="#"><img src="img/shreya.jpg" alt="" /></a>
+            <a href="#"><img src="img/arijit.jpg" alt="" /></a>
+            <a href="#"><img src="img/lata.jpg" alt="" /></a>
+            <a href="#"><img src="img/ar-rahman.jpg" alt="" /></a>
+            <a href="#"><img src="img/sonu.jpg" alt="" /></a>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="10000">
+          <div class="carousel-list">
+            <a href="#"><img src="img/himesh.jpg" alt="" /></a>
+            <a href="#"><img src="img/kumar-sanu.jpg" alt="" /></a>
+            <a href="#"><img src="img/rahat-fateh-ali-khan.jpg" alt="" /></a>
+            <a href="#"><img src="img/nusrat-fateh-ali-khan.jpg" alt="" /></a>
+            <a href="#"><img src="img/papon.jpg" alt="" /></a>
+            <a href="#"><img src="img/neha.jpg" alt="" /></a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-list">
+            <a href="#"><img src="img/shirley.jpg" alt="" /></a>
+            <a href="#"><img src="img/shreya.jpg" alt="" /></a>
+            <a href="#"><img src="img/arijit.jpg" alt="" /></a>
+            <a href="#"><img src="img/lata.jpg" alt="" /></a>
+            <a href="#"><img src="img/ar-rahman.jpg" alt="" /></a>
+            <a href="#"><img src="img/sonu.jpg" alt="" /></a>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
     <div class="row">
       <div class="col-3 left-block">
         <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-          <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
-          <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
-          <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
-          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+          <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-weekly-hits" role="tab" aria-controls="v-pills-home" aria-selected="true">» Weekly hits</a>
+          <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-top-25" role="tab" aria-controls="v-pills-profile" aria-selected="false">» Top 25</a>
+          <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-shuffle" role="tab" aria-controls="v-pills-messages" aria-selected="false">» Shuffle</a>
+          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-immerse" role="tab" aria-controls="v-pills-settings" aria-selected="false">» IMMERSE Box</a>
+          <br>------------------------<br>
+          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-hindi" role="tab" aria-controls="v-pills-settings" aria-selected="false">» Hindi Songs</a>
+          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-english" role="tab" aria-controls="v-pills-settings" aria-selected="false">» English Songs</a>
+          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-old-hindi" role="tab" aria-controls="v-pills-settings" aria-selected="false">» Old Hindi Songs</a>
+          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-punjabi" role="tab" aria-controls="v-pills-settings" aria-selected="false">» Punjabi Songs</a>
         </div>
       </div>
       <div class="col-6 center-block">
         <div class="tab-content" id="v-pills-tabContent">
-          <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">ksdnvosndvnsd nsdnf denfs dmfsmdlf msldmfl sdmksnd oinsdin sd
-               sdn visdnsd
-              dsinsd 
-            sdpn dsd skdnsdn sdn 
-          dspdnspdngsgdsgnsidngsdngsd
-        gnasdkgnsdkgnsdkgnsadg</div>
-          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-          <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+          <div class="tab-pane fade show active" id="v-pills-weekly-hits" role="tabpanel" aria-labelledby="v-pills-home-tab">
+            <div class="section">
+              <h3>Latest Songs</h3>
+              <ul type="arrow">
+                <li> Kalank </li>
+                <li> Manikarnika </li>
+                <li> Kesari </li>
+                <li> Romeo Akbar Walter </li>
+                <li> Gully Boy </li>
+              </ul>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="v-pills-top-25" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+          <div class="tab-pane fade" id="v-pills-shuffle" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+          <div class="tab-pane fade" id="v-pills-immerese" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+          <div class="tab-pane fade" id="v-pills-hindi" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+            <div class="section">
+              <h3>Latest Songs</h3>
+              <ul type="arrow">
+                <li> <a href="#">Kalank </a></li>
+                <li> <a href="#">Manikarnika </a> </li>
+                <li> <a href="#">Kesari </a></li>
+                <li> <a href="#">Romeo Akbar Walter </a></li>
+                <li> <a href="#">Gully Boy </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="v-pills-english" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+          <div class="tab-pane fade" id="v-pills-old-hindi" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+          <div class="tab-pane fade" id="v-pills-punjabi" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
         </div>
-      </div>
+      </div> 
       <div class="col-3 right-block">
         <div>
-          <h5>Right Side Block</h5>
+          dnsi ndsin inds inid ni dsnin dsinvi sdnvin dinvdskmvids nivndsi nv
+          ids visdn ivnsdi nvisdn ivmsdmvismdv
+          ajdsh lkjfh dsjhkjsdhkjadkjlas 
+          adsjkf hsdlkjfhsdjkfhjskdf
+          sadfksdjfhksjdhf
+          sfkjsadfhklsdfh
+          fkjaskdfhkajsdhfkjsdhfkjshdkfjhs. sadhfkj sd ksdnf. 
         </div>        
       </div>
     </div>

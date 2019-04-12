@@ -1,5 +1,8 @@
 body {
-	background-color: #DCDCDC;
+	background: #093028;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color:#fff;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -18,9 +21,6 @@ body {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-	body {
-		background-color: green;
-	}
 
 	#top-nav img {    
 	    max-width: 50%;
@@ -36,8 +36,28 @@ body {
 	    margin-left: 200px;
 	}
 
-	.searchbar {
+	.searchbar1 {
 		visibility: hidden;
+	}
+
+	/*carousel imges*/
+	#carousel {
+		min-width: 120%;
+		margin-bottom:2rem;
+	}
+
+	.carousel-list {
+		margin-left: 5rem;
+	}
+
+	.carousel-list img {
+		max-width: 100px;
+		margin: 4px;
+		border-radius: 50%;
+	}
+
+	.carousel-control-prev, .carousel-control-next {
+		width:50px;
 	}
 
 	#navbar-content ul {
@@ -60,6 +80,34 @@ body {
 		color: olive;
 	}
 
+	.searchbar2 {
+		margin-left: 20%;
+		padding: 3rem;	
+	}
+
+	.searchbar2 input::placeholder {
+		color:#CCC;
+		font-family: 'Raleway', sans-serif;
+		font-weight: Extra-Light200;
+	}
+
+	.btn-search {
+		font-family: 'Comfortaa', cursive; 
+	}
+
+	.container {
+		margin: 0;
+	}
+
+	.left-block {
+	    padding-left: 8px;
+	    padding-top: 8px;
+	    padding-right: 15px;
+	}
+
+	.left-block a {
+		color:#fff;
+	}
 
 } 
 
@@ -82,13 +130,17 @@ body {
 	    margin-left: 1%;
 	}
 
-	.searchbar input::placeholder {
+	.searchbar1 input::placeholder {
 		color:#CCC;
 		font-family: 'Raleway', sans-serif;
 	}
 
 	.btn-search {
 		font-family: 'Comfortaa', cursive; 
+	}
+
+	.searchbar2 {
+		visibility: hidden;
 	}
 
 	#navbar-content ul {
