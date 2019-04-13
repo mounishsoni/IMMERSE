@@ -30,7 +30,7 @@ h2 {
 
 
 	.container {
-		min-height: 1000px;
+		background-color: grey;
 	}
 
 	#top-nav img {    
@@ -202,10 +202,11 @@ h2 {
 		text-shadow: 0 2px 4px #333;
 	}
 
-	/*player footer*/
-	#player {
+	.space {
+		min-height: 120px;
 	}
 
+	/*player footer*/
 	.player-head {
 		background-color: #CCC;
 		padding: 1rem;
