@@ -37,7 +37,7 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#" style="color: #333;">New Released </a>
               <a class="dropdown-item" href="#" style="color: #333;">Hindi Songs </a>
-              <a class="dropdown-item" href="#" style="color: #333;">English Songs</a>
+              <a class="dropdown-item" href="#" sty+7le="color: #333;">English Songs</a>
               <a class="dropdown-item" href="#" style="color: #333;">Punjabi Songs</a>
             </div>
           </li>
@@ -114,7 +114,9 @@
           <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-weekly-hits" role="tab" aria-controls="v-pills-home" aria-selected="true">» Weekly hits</a>
           <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-top-25" role="tab" aria-controls="v-pills-profile" aria-selected="false">» Top 25</a>
           <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-immerse" role="tab" aria-controls="v-pills-settings" aria-selected="false">» IMMERSE Box</a>
-          <br>------------------------<br><br>
+          <br>
+          <div class="dropdown-divider"></div>
+          <br>
           <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-hindi" role="tab" aria-controls="v-pills-settings" aria-selected="false">» Hindi Songs</a>
           <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-english" role="tab" aria-controls="v-pills-settings" aria-selected="false">» English Songs</a>
           <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-old-hindi" role="tab" aria-controls="v-pills-settings" aria-selected="false">» Old Hindi Songs</a>
@@ -324,18 +326,18 @@
         </div>
       </div>
     </div>
-
   </div> <!-- End of container -->
+
   <div class="space"></div>
-    <div id="player">
+
+  <div id="player">
       <div class=" player-head fixed-bottom">
         <h2>Now Playing <span class="fa fa-music"></span></h2>
         <div class="player-title">
           <img src="img/atif.jpg" class="player-img" alt="" />
         </div>
         <div class="player-body">
-          <span class="fa fa-circle"></span>
-          <hr id="seek">
+          <input type="range" min="1" max="100" value="1" class="slider" id="myRange">
           <span style="color: grey"> 00:00/04:57 </span><br>
           <a href="#"><div class="fa fa-random"></div></a>    
           <a href="#"><div class="fa fa-step-backward"></div></a>    
@@ -350,7 +352,7 @@
           <a href="#"><div class="fa fa-thumbs-down"></div></a>
         </div>
       </div>
-    </div>
+  </div>
 
   <!-- JS Link -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
