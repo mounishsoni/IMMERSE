@@ -131,9 +131,9 @@
               <hr>
                 <div class="card text-white bg-dark mb-3" >
                   <div class="card-header">Kalank</div>
-                  <div class="card-body">
+                  <div class="card-body" id="card1">
                     <h5 class="card-title">
-                      <a href="#"><span class="fa fa-play-circle-o"></span> Ghar More Pardesiya </a>
+                      <a href="songs/Tay hai.mp3"><span class="fa fa-play-circle-o"></span> Ghar More Pardesiya </a>
                     </h5>
                     <p class="card-text">Shreya Ghoshal , Vaishali Mhade-bhaisane</p>
                   </div>
@@ -142,7 +142,7 @@
                   <div class="card-header">Kalank</div>
                   <div class="card-body">
                     <h5 class="card-title">
-                      <a href="#"><span class="fa fa-play-circle-o"> </span>Kalank - Title Track</a>
+                      <a href="songs/Tay hai.mp3"><span class="fa fa-play-circle-o"> </span>Kalank - Title Track</a>
                     </h5>
                     <p class="card-text">Arijit Singh</p>
                   </div>
@@ -151,7 +151,7 @@
                   <div class="card-header">Album </div>
                   <div class="card-body">
                     <h5 class="card-title">
-                      <a href="#"><span class="fa fa-play-circle-o"> </span>Baarishain </a>
+                      <a href="songs/Tay hai.mp3"><span class="fa fa-play-circle-o"> </span>Baarishain </a>
                     </h5>
                     <p class="card-text">Atif Aslam</p>
                   </div>
@@ -160,7 +160,7 @@
                   <div class="card-header">Why Cheat India</div>
                   <div class="card-body">
                     <h5 class="card-title">
-                      <a href="#"><span class="fa fa-play-circle-o"> </span>Dil main ho tum </a>
+                      <a href="songs/Dil Mein Ho Tum.mp3"><span class="fa fa-play-circle-o"> </span>Dil main ho tum </a>
                     </h5>
                     <p class="card-text">Armaan Malik</p>
                   </div>
@@ -331,25 +331,25 @@
   <div class="space"></div>
 
   <div id="player">
-      <div class=" player-head fixed-bottom">
+      <div class="fixed-bottom" id="player-head">
         <h2>Now Playing <span class="fa fa-music"></span></h2>
-        <div class="player-title">
-          <img src="img/atif.jpg" class="player-img" alt="" />
+        <div id="player-title">
+          <img src="img/atif.jpg" id="player-img" alt="" />
         </div>
-        <div class="player-body">
-          <input type="range" min="1" max="100" value="1" class="slider" id="myRange">
-          <span style="color: grey"> 00:00/04:57 </span><br>
-          <a href="#"><div class="fa fa-random"></div></a>    
-          <a href="#"><div class="fa fa-step-backward"></div></a>    
-          <a href="#"><div class="fa fa-play"></div></a>    
-          <a href="#"><div class="fa fa-step-forward"></div></a>    
-          <a href="#"><div class="fa fa-retweet"></div> </a>    
-          <a href="#"><div class="fa fa-volume-down"></div></a>    
-          <a href="#"><div class="fa fa-volume-up"></div></a>    
-          <a href="#"><div class="fa fa-heart"></div></a>    
-          <a href="#"><div class="fa fa-clock-o"></div></a>    
-          <a href="#"><div class="fa fa-thumbs-up"></div></a>    
-          <a href="#"><div class="fa fa-thumbs-down"></div></a>
+        <div id="player-body">
+          <audio src="" controls id="audioPlayer"></audio>
+          <ul id="controls">
+            <li><a href="#"><div class="fa fa-random"></div></a></li>    
+            <li><a href="#"><div class="fa fa-step-backward"></div></a></li>  
+            <li><a href="#"><div class="fa fa-step-forward"></div></a></li>    
+            <li><a href="#"><div class="fa fa-retweet"></div> </a></li>
+            <li><a href="#"><div class="fa fa-volume-down"></div></a></li>    
+            <li><a href="#"><div class="fa fa-volume-up"></div></a></li>    
+            <li><a href="#"><div class="fa fa-heart"></div></a></li>    
+            <li><a href="#"><div class="fa fa-clock-o"></div></a></li>    
+            <li><a href="#"><div class="fa fa-thumbs-up"></div></a></li>   
+            <li><a href="#"><div class="fa fa-thumbs-down"></div></a></li>
+          </ul>
         </div>
       </div>
   </div>
@@ -358,6 +358,9 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+  <script src="JS/audio-player.js"></script>
 
 </body>
 </html>

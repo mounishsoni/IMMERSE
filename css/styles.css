@@ -196,65 +196,43 @@ h2 {
 	}
 
 	/*player footer*/
-	.player-head {
+	#player-head {
 		background-color: #CCC;
 		padding: 1rem;
 		color:#333;
 		display: flex;
 	}
 
-	.player-head h2 {
+	#player-head h2 {
 	    margin-top: 1rem;
 	    margin-right: 0.5rem;
 	    font-size: 1.5rem;
 	}
 
-	.player-img {
+	#player-img {
 		max-width: 80px;
 		border-radius: 50%;
 		margin-right: 1rem;
 		margin-left: 1rem;
 	}
 
-	.slider {
-	  -webkit-appearance: none;
-	  width: 160%;
-	  height: 5px;
-	  background: grey;
-	  outline: none;
-	  opacity: 0.7;
-	  -webkit-transition: .2s;
-	  transition: opacity .5s;
-    	border-radius: 5px;
+	#controls {
+		list-style-type: none;
+		display: flex;
+		padding-left: 0;
+		margin-bottom: 0;
 	}
 
-	.slider:hover {
-	  opacity: 2;
+	#controls li{
+		padding: 0.5rem;
 	}
 
-	.slider::-webkit-slider-thumb {
-	  -webkit-appearance: none;
-	  appearance: none;
-	  width: 20px;
-	  height: 20px;
-	  background: olive;
-	  cursor: pointer;
-	  border-radius: 50%;
-	}
-
-	.slider::-moz-range-thumb {
-	  width: 25px;
-	  height: 25px;
-	  background: #4CAF50;
-	  cursor: pointer;
-	}
-
-	.player-body a{
+	#player-body a{
 		color:black;
 		margin: 1rem;
 	}
 
-	.player-body a:hover {
+	#player-body a:hover {
 		color:#237A57;
 		text-decoration: none;
 	}
@@ -462,65 +440,36 @@ h2 {
 	}
 
 	/*player footer*/
-	.player-head {
+	.curernt-song {
+		color:lightblue;
+	}
+
+	#player-head {
 		background-color: #CCC;
 		padding: 1rem;
 		color:#333;
 		display: flex;
 	}
 
-	.player-head h2 {
+	#player-head h2 {
 	    margin-top: 1rem;
 	    margin-right: 0.5rem;
 	    font-size: 1.5rem;
 	}
 
-	.player-img {
+	#player-img {
 		max-width: 80px;
 		border-radius: 50%;
 		margin-right: 1rem;
 		margin-left: 1rem;
 	}
 
-	.slider {
-	  -webkit-appearance: none;
-	  width: 160%;
-	  height: 5px;
-	  background: grey;
-	  outline: none;
-	  opacity: 0.7;
-	  -webkit-transition: .2s;
-	  transition: opacity .5s;
-    	border-radius: 5px;
-	}
-
-	.slider:hover {
-	  opacity: 2;
-	}
-
-	.slider::-webkit-slider-thumb {
-	  -webkit-appearance: none;
-	  appearance: none;
-	  width: 20px;
-	  height: 20px;
-	  background: olive;
-	  cursor: pointer;
-	  border-radius: 50%;
-	}
-
-	.slider::-moz-range-thumb {
-	  width: 25px;
-	  height: 25px;
-	  background: #4CAF50;
-	  cursor: pointer;
-	}
-
-	.player-body a{
+	#player-body a{
 		color:black;
 		margin: 1rem;
 	}
 
-	.player-body a:hover {
+	#player-body a:hover {
 		color:#237A57;
 		text-decoration: none;
 	}
