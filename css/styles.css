@@ -196,6 +196,10 @@ h2 {
 	}
 
 	/*player footer*/
+	#audioPlayer {
+		min-width: 100%;
+	}
+
 	#player-head {
 		background-color: #CCC;
 		padding: 1rem;
@@ -440,14 +444,14 @@ h2 {
 	}
 
 	/*player footer*/
-	.curernt-song {
-		color:lightblue;
+	#audioPlayer {
+		min-width: 101%;
 	}
 
 	#player-head {
 		background-color: #CCC;
 		padding: 1rem;
-		color:#333;
+		color:#333;	
 		display: flex;
 	}
 
