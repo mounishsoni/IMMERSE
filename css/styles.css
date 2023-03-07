@@ -6,7 +6,8 @@ body {
 }
 
 h2 {
-	font-family: 'Righteous', cursive;	
+	font-family: 'Righteous', cursive;
+	margin: 20px;
 }
 
 
@@ -192,7 +193,7 @@ h2 {
 	}
 
 	.space {
-		min-height: 120px;
+		min-height: 220px;
 	}
 
 	/*player footer*/
@@ -440,7 +441,7 @@ h2 {
 	}
 
 	.space {
-		min-height: 120px;
+		min-height: 220px;
 	}
 
 	/*player footer*/
